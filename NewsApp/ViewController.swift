@@ -52,7 +52,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     
     func update (){
         //API key
-        let urlstring = "http://newsapi.org/v2/everything?q=bitcoin&from=2020-03-30&sortBy=publishedAt&apiKey=c9a4e2fd6be54addb0e2afaa3b013bb6"
+        let urlstring = ""
         let url = URL(string: urlstring)
         
         guard  url != nil else {
