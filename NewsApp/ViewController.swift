@@ -51,7 +51,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     }
     
     func update (){
-        //API key
+        //API key go to https://newsapi.org
         let urlstring = ""
         let url = URL(string: urlstring)
         
